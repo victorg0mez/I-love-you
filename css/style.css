@@ -1,0 +1,124 @@
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; 
+    background-image: url(https://wallpapercave.com/wp/wp8369541.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    height: 100vh; 
+}
+
+/* Estilo del contenedor principal */
+.padre {
+    color: #e7e7e7;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 300px; 
+    width: 100%; 
+    background-image: url(https://wallpapers.com/images/high/fondode-pantalla-de-relampagos-electricos-purpura-1ja8kw1yy7yu69ye.webp);
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+}
+
+/* Estilos para los enlaces */
+.contain a {
+    display: block; 
+    padding: 8px; 
+    margin: 5px 0; 
+    text-decoration: none; 
+    color: #333; 
+    background-color: #e7e7e7; 
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+    text-align: center; 
+}
+
+/* Efecto hover para los enlaces */
+.contain a:hover {
+    background-color: #aa1999; 
+}
+
+/*Color de los textos*/
+.parrafo{
+    font-size: 25px;
+    color: white;
+    text-shadow:0px 0px 10px #E303F8
+}
+
+/*Botones*/
+/* From Uiverse.io by bandirevanth */ 
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      7px 7px 20px 0px rgba(0,0,0,.1),
+      4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+   }
+   
+   .btn-1 {
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+   }
+   
+   .btn-1:hover {
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgb(0, 17, 255) 0%, rgba(2,126,251,1) 100%);
+   }
+
+   /* Estilos para la transición */
+   .parrafo {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.fade-out {
+    opacity: 0;
+}
+  
+
+@media (max-width: 468px) {
+    body {
+        background-image: url(https://e1.pxfuel.com/desktop-wallpaper/830/739/desktop-wallpaper-satoru-gojo-phone-gojo-satoru-android.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .padre {
+        max-width: 100%; 
+        padding: 10px; 
+    }
+
+    button{
+        text-align: center;
+    }
+    .container:hover::before{
+        width: 15px;
+        height: 25px;
+    }
+
+    .custom-btn{
+      margin-left: 95px;
+    }
+}
+
